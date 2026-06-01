@@ -1,0 +1,51 @@
+/* Importamos una fuente distintiva de Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Mono:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: #f5f4f0;
+  color: #111;
+  min-height: 100vh;
+}
+
+/* Scrollbar más discreta */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 10px;
+}
+
+/* Inputs y selects consistentes en toda la app */
+input,
+select {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+input:focus,
+select:focus {
+  border-color: #378add !important;
+}
+
+button {
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
